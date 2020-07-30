@@ -55,7 +55,7 @@ class EventQueueBase <
 		>
 	>
 {
-private:
+public:
 	using super = EventDispatcherBase<
 		EventType_,
 		ReturnType (Args...),
